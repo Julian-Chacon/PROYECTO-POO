@@ -33,19 +33,20 @@ public class Flight extends TransportService {
     
     @Override
     public String getServiceInformation(){
-        String str="";
+        String str="\nEl vuelo sale en una hora";
     return str;
     }
     
     @Override
     public String getLuggageInformation(){
-        String str="";
+        String str="\nel equipaje tiene coca";
     return str;
     }
     
     @Override
     public String toString(){
-        String str="";
+        String str= super.toString();
+        str += "\nAreolinea: " + this.getAirline() + "\nTipo de asiento: " + this.getSeatClass() + "\n" + this.getServiceInformation() + "\n" + this.getLuggageInformation();
     return str;
     }
 }
