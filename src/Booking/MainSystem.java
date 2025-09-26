@@ -7,8 +7,8 @@ public class MainSystem {
     public static void main(String[] args){
         
         
-      
-        TransportService flight1 = new Flight(23, "bucaramanga", "bogota", 100.000, "avianca", "ejecutivo");
+        
+        TransportService flight1 = new Flight(23, "bucaramanga", "bogota", 100000, "avianca", "ejecutivo");
         TransportService bus1 = new Bus();
         TransportService train1 = new Train();
         
@@ -16,6 +16,9 @@ public class MainSystem {
         p1.addTransportService(bus1);
         p1.addTransportService(flight1);
         p1.addTransportService(train1);
+        
+        System.out.println("FLIGHT INFORMATION");
+        
         System.out.println(flight1.toString());
     }
     
