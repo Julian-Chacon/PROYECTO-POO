@@ -29,7 +29,7 @@ public class Passenger extends Person{
  public String toString(){
      String str = super.toString();
      
-     str += "";
+     str += "Pasaporte: " + this.getPassportNumber();
      return str;
  }
 }
