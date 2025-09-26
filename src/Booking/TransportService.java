@@ -47,7 +47,7 @@ public abstract class TransportService {
     
     @Override
     public String toString(){
-        String str = "";
+        String str = "\nID: " + this.getId() + "\nOrigen: " + this.getOrigin() + "\ndestino: " + this.getDestination() + "\nprecio: " + this.getPrice();
         
         return str;
     }
