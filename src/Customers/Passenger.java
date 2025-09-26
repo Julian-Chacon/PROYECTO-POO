@@ -8,7 +8,7 @@ public class Passenger extends Person{
     private TransportService transportService;
     
  public Passenger(){
-     
+
      this.transportService = null;   
     }
  public Passenger(String name, int age, String passportNumber){
@@ -29,7 +29,7 @@ public class Passenger extends Person{
  public String toString(){
      String str = super.toString();
      
-     str += "Pasaporte: " + this.getPassportNumber();
+     str += "\nPasaporte: " + this.getPassportNumber();
      return str;
  }
 }

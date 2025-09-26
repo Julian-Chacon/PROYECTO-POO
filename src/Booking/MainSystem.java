@@ -12,13 +12,13 @@ public class MainSystem {
         TransportService bus1 = new Bus();
         TransportService train1 = new Train();
         
-        Passenger p1 = new Passenger();
+        Passenger p1 = new Passenger("julian", 18, "colombiano");
         p1.addTransportService(bus1);
         p1.addTransportService(flight1);
         p1.addTransportService(train1);
         
         System.out.println("FLIGHT INFORMATION");
-        
+        System.out.println(p1.toString());
         System.out.println(flight1.toString());
     }
     
