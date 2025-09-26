@@ -10,8 +10,8 @@ public class Train extends TransportService {
     }
     public Train(int id, String origin, String destination, double price, String seatType, int wagonNumber){
     super(id, origin, destination, price);
-    setSeatType(seatType);
-    setWagonNumber(wagonNumber);
+    this.setSeatType(seatType);
+    this.setWagonNumber(wagonNumber);
     }
     public final void setSeatType(String seatType){
         this.seatType = seatType;
