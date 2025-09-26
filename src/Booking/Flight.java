@@ -23,5 +23,29 @@ public class Flight extends TransportService {
      this.seatClass = seatClass;
     }
     
+    public String getAirline(){
+    return this.airline;
+    }
     
+    public String getSeatClass(){
+    return this.seatClass;
+    }
+    
+    @Override
+    public String getServiceInformation(){
+        String str="";
+    return str;
+    }
+    
+    @Override
+    public String getLuggageInformation(){
+        String str="";
+    return str;
+    }
+    
+    @Override
+    public String toString(){
+        String str="";
+    return str;
+    }
 }
