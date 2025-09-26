@@ -10,7 +10,8 @@ public Person(){
         
     }
 public Person(String name, int age){
-        
+      this.setName(name);
+      this.setAge(age);
     }
 protected final void setName(String name){
     this.name = name;
@@ -27,7 +28,7 @@ protected int getAge(){
 
 @Override
 public String toString(){
-    String str = "";
+    String str = "\nNombre: " + this.getName() + "\nEdad: " + this.getAge();
     
     return str;
 }
