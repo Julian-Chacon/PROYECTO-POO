@@ -25,11 +25,15 @@ public class Train extends TransportService {
     public int getWagonNumber(){
         return this.wagonNumber;
     }
+    @Override
     public String getServiceInformation(){
-        return this.serviceInformation;
+        String str="";
+    return str;
     }
+    @Override
     public String getLuggageInformation(){
-        return this.luggageInformation;
+        String str="";
+    return str;
     }
     @Override
     public String toString(){
